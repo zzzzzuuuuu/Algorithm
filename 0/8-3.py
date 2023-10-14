@@ -3,13 +3,13 @@ def solution(emergency):
     n = 0
     my_dict = {}
     for i in emergency:
-        my_dict[i] = ''
+        my_dict[i] = '' # 키값 emergency 요소, 밸류값 ''
 
     while emergency:
         n = max(emergency)
-        my_dict[n] = count
+        my_dict[n] = count # 특정 키 값의 밸류 값에 값 할당
         count += 1
-        emergency.remove(n)
+        emergency.remove(n) # 특정 값을 알 땐 remove() 메서드 사용
     return list(my_dict.values())
 
 # 또 다른 풀이

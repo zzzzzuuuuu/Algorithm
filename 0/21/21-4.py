@@ -1,5 +1,4 @@
 def solution(spell, dic):
-    count = 0
     for c in dic:
         count = 0
         for s in spell:

@@ -14,3 +14,6 @@ def solution(sides):
 # 또 다른 풀이
 def solution2(sides):
     return sum(sides) - max(sides) + min(sides) - 1
+
+def solution3(sides):
+	return 2 * min(sides) - 1

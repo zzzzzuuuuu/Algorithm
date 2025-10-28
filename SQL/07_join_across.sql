@@ -1,0 +1,4 @@
+SELECT COUNT(*) AS cnt
+FROM a
+ACROSS JOIN b
+WHERE a.name LIKE b.rule;
